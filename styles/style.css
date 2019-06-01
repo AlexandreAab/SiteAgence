@@ -189,3 +189,103 @@ footer {
     text-align: center;
     padding-top: 20px;
 }
+/* ********************* */
+/* BLOG */
+/* ********************* */
+main>.titre {
+    width: 25%;
+    margin: auto auto auto 0;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 6px 7px 20px 0px rgba(0,0,0,0.75);
+    margin-top: 70px;
+}
+.titre>p {
+    text-align: center;
+    background: linear-gradient(to left, rgba(255,78,0,1) 0%, rgba(229,19,86,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 2px;
+}
+/* ************* */
+.bloginfo {
+    padding-top: 105px;
+}
+.wrap {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: auto;
+}
+.article {
+    margin: 20px;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 6px 7px 15px 0px rgba(0,0,0,0.75);
+    overflow: hidden;
+    background-color: white;
+}
+.article>img {
+    width: 100%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.article>img:hover {
+    transform: scale(1.2);
+    filter: blur(3px);
+}
+.article>h3 {
+    color: black;
+    border-bottom: 1px solid lightgrey;
+    padding: 15px;
+    font-size: 17px;
+    margin-top: 0;
+}
+.article>p {
+    padding: 12px;
+    font-size: 12px;
+    margin: 0;
+}
+/* ****************** */
+/* CONTACT */
+/* ******************* */
+.titre>h1 {
+    text-align: center;
+    margin: 0;
+}
+.contact>h2 {
+    padding: 25px;
+}
+.contact {
+    width: 80%;
+    margin: 90px auto auto auto;
+    background-color: white;
+    box-shadow: 6px 7px 15px 0px rgba(0,0,0,0.75);
+    border-radius: 12px;
+}
+input {
+    border-radius: 5px;
+    background-color: rgb(236, 240, 241);
+    border: none;
+    width: 46%;
+    height: 60px;
+    margin: auto auto 10px auto;
+    padding: 15px;
+    font-size: 20px;
+}
+.mail {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sujet {
+    border-radius: 5px;
+    background-color: rgb(236, 240, 241);
+    border: none;
+    width: 95%;
+    height: 120px;
+    margin: auto auto 10px auto;
+    padding: 2px 15px 15px 15px;
+    font-size: 20px;
+}
